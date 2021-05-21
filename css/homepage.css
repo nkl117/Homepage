@@ -1,8 +1,215 @@
-h1{
-  font-size: 30px;
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inconsolata', monospace;
+}
+
+nav  {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  font-size: 26px;
+  font-family: 'Prata',serif;
+}
+
+p  {
+  line-height: 145%;
+}
+
+.navigation {
+  text-align: center;
+}
+
+.navigation li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.navigation li a {
+  color: #FFBD59;
+  text-decoration: none;
+}
+
+.Intro {
+  color: purple;
+  font-weight: bold;
+}
+
+
+.left-col {
+  background-color: #45B39D;
+  text-align: center;
+}
+
+.right-col {
+  background-color: #FADBD8
+}
+
+.right-col p {
+  color: purple;
+  font-weight: bold;
+  text-align:inherit;
+}
+
+.right-col img {
+  margin: 50px 0 auto;
+}
+
+
+.left-col, .right-col {
+  color:#fff;
+  text-align: center;
+}
+
+.left-col1 {
+  background-color: #FADBD8
+}
+
+.right-col1 {
+  background-color: #45B39D;
+  text-align: center;
+
+}
+
+.left-col1, .right-col1 {
+  text-align: left;
+}
+
+.left-col1 p {
+  margin: 20px 20px;
+  padding: 10px 10px;
   color: teal;
 }
+
+.right-col1 p {
+  margin: 20px 20px;
+  padding: 10px 10px;
+  color: gold;
+}
+
+.Instagram {
+  margin: 20px 20px;
+  padding: 10px 10px;
+  border: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: gold;
+}
+
+.top-container h1 {
+  font-size: 150px;
+  color: #fff;
+}
+
+.top-container {
+  height: 90vh;
+}
+
+.intropic img {
+  margin: 50px auto;
+}
+
+.left-col2{
+  background-color: #EFEBE2;
+}
+
+.right-col2{
+  background-color: #4DA1B8;
+}
+
+.left-col2, .right-col2 {
+  text-align: center;
+}
+
+.social-icon {
+  height: 60px;
+  margin: 20px 20px;
+}
+
+
+.social-icons-container {
+  text-align: center;
+}
+
+.Kurse img {
+  margin: 20px auto;
+}
+
+.Niveausstufe p {
+  text-align:left;
+}
+
+.Vorbereitung p {
+  text-align:left;
+}
+
+
+.Aussprachetraining p {
+  text-align:left;
+}
+
+
+img{
+  max-width: 100%;
+}
+
+
+h1{
+  font-size: 150px;
+  color: #fff;
+  margin: 0 50px;
+}
 h2{
-  font-size: 20px;
-  color: red;
+  font-size: 50px;
+  color: purple;
+  background-color: #FCF3CF;
+  margin: 20px 0;
+  padding: 10px;
+  display: inline-grid;
+}
+
+h3 {
+  font-size: 40px;
+  color: coral;
+  margin: 10px 0;
+  padding: 10px;
+  display: inline-grid;
+}
+
+h1,h2,h3{
+  font-family: 'Prata', serif;
+  font-weight: normal;
+}
+
+
+.Kontakt .right-col1 {
+  text-align: center;
+}
+
+.Kontakt .left-col1 {
+  text-align: center;
+}
+
+.Kontakt p {
+  margin: 150px 0;
+}
+
+.Kontakt img {
+  margin: 30px 0;
+}
+
+footer {
+  background-color: #B27AA4;
+  text-align: center;
+}
+
+footer p {
+  padding: 20px 0 ;
+  margin: 0;
 }
